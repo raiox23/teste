@@ -1,12 +1,15 @@
 import React from 'react'
 import "./header.css"
+import Logo from './Logo'
+
 
 function Header() {
   return (
     <div className='headerConteiner'>
 
       <div className='divImg'>
-        <img className='logoImg' src="./images/farmarcia1.png" alt="" />
+        <Logo />
+
       </div>
 
 
